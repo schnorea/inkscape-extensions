@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inkscape-extension 
+xmlns="http://www.inkscape.org/namespace/inkscape/extension">
+  <_name>Calculate Handles</_name>
+  <id>org.inkscape.effect.radiobuttontest</id>
+
+  <effect>
+    <object-type>all</object-type>
+    <effects-menu>
+      <submenu _name="Laser Engrave Pint"/>
+    </effects-menu>
+  </effect>
+      <script>
+        <command location="inx" interpreter="python">bound.py</command>
+    </script>
+</inkscape-extension>
